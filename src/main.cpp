@@ -5,6 +5,7 @@
 #include <zad4.h>
 #include <zad5.h>
 #include <zad6.h>
+//#include <fade_blink.h> //[nietestowane]
 
 
 void setup() {
@@ -13,6 +14,7 @@ void setup() {
   //zad4_setup();
   //zad5_setup();
   zad6_setup();
+  //fade_blink_setup();
 }
 
 void loop() {
@@ -21,4 +23,5 @@ void loop() {
   //zad4_loop();
   //zad5_loop();
   zad6_loop();
+  //fade_blink_loop();
 }
